@@ -1,0 +1,17 @@
+BENDR | Frontiers in Human Neuroscience 2021 | https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.653659/full
+BIOT | NeurIPS 2023 | https://proceedings.neurips.cc/paper_files/paper/2023/hash/f6b30f3e2dd9cb53bbf2024402d02295-Abstract.html
+LaBraM | ICLR 2024 | https://proceedings.iclr.cc/paper_files/paper/2024/file/47393e8594c82ce8fd83adc672cf9872-Paper-Conference.pdf
+EEGPT-Wang | NeurIPS 2024 | https://proceedings.neurips.cc/paper_files/paper/2024/file/4540d267eeec4e5dbd9dae9448f0b739-Paper-Conference.pdf
+CBraMod | ICLR 2025 | https://proceedings.iclr.cc/paper_files/paper/2025/file/bbbd6d915cb90be21c1254a82d45cedd-Paper-Conference.pdf
+NeurIPT | NeurIPS 2025 | https://papers.nips.cc/paper_files/paper/2025/hash/dd9c5ce8803e1898d438e636fbae0236-Abstract-Conference.html
+TFM-Tokenizer | ICLR 2026 | https://arxiv.org/abs/2502.16060
+Apple wearable biosignal foundation models | ICLR 2024 | https://machinelearning.apple.com/research/large-scale-training
+MOMENT | ICML 2024 | https://arxiv.org/abs/2402.03885
+PaPaGei | ICLR 2025 | https://proceedings.iclr.cc/paper_files/paper/2025/file/7871f51d332c8661cc729539d7987b21-Paper-Conference.pdf
+Scaling Wearable Foundation Models | ICLR 2025 | https://proceedings.iclr.cc/paper_files/paper/2025/file/94b25992757a549470c8f8dfe73d8df6-Paper-Conference.pdf
+Sundial | ICML 2025 | https://arxiv.org/abs/2502.00816
+Biosignal Fingerprinting / M2AE | arXiv 2026 preprint | https://arxiv.org/abs/2605.09579
+A generic non-invasive neuromotor interface for HCI | Nature 2025 | https://www.nature.com/articles/s41586-025-09255-w
+emg2pose | NeurIPS 2024 Datasets and Benchmarks | https://proceedings.neurips.cc/paper_files/paper/2024/file/64f8884f6ba3d9ace5bb647c4f917896-Paper-Datasets_and_Benchmarks_Track.pdf
+emg2qwerty | NeurIPS 2024 Datasets and Benchmarks | https://papers.neurips.cc/paper_files/paper/2024/file/a64d53074d011e49af1dfc72c332fe4b-Abstract-Datasets_and_Benchmarks_Track.html
+AEMG | CVPR 2026 | https://openaccess.thecvf.com/content/CVPR2026/html/Huang_Reading_Your_Actions_Learning_Generalizable_Action_Representations_via_Pre-training_AEMG_CVPR_2026_paper.html
