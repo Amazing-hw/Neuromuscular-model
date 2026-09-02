@@ -1,0 +1,24 @@
+PPTX QA report — 2026-09-02
+
+Output: 生理时序基座模型顶会论文深读_2026-09.pptx
+Slide count: 65
+Corpus: 17 selected works; 3 deep-dive slides per work (51 slides)
+Overview: 5 slides
+Synthesis / target-model recommendation: 9 slides
+
+Content checks
+- paperRecords length = 17: PASS
+- Each record has positioning / method / evidence slides: PASS
+- Each evidence slide includes “可借鉴” and “不应照搬”: PASS
+- Each work has >=500 Chinese characters across its three source-free speaker-note bodies: PASS
+- Each note section contains a [Sources]...[/Sources] block: PASS
+- M2AE is labeled as a preprint: PASS
+
+Layout checks
+- slides_test.py: PASS (no overflow detected)
+- Rendered slide images: 65 / 65
+- Montage inspected for narrative flow and visual consistency: PASS
+- Individual full-size spot inspection: slides 27, 36, 45, 65; title shortening applied to long English titles, no wrapping or clipping observed.
+
+Known scope boundary
+- Speaker notes cite each paper's official source URL. The source manifest distinguishes primary official proceedings/publisher/arXiv pages and marks the M2AE work as a preprint.

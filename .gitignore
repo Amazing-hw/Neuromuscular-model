@@ -1,2 +1,7 @@
 .worktrees/
 deliverables/physio_fm_ppt/rendered/
+deliverables/physio_fm_ppt/node_modules/
+deliverables/physio_fm_ppt/preview/
+deliverables/physio_fm_ppt/montage.png
+deliverables/physio_fm_ppt/test_output_path.mjs
+deliverables/*.inspect.ndjson
