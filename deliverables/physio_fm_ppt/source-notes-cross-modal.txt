@@ -1,0 +1,12 @@
+Cross-modal source ledger
+
+The eight-paper canonical metadata are stored in cross_modal_fulltext_manifest.json.
+Detailed source-grounded method notes:
+- source-notes-speech.txt
+- source-notes-physio.txt
+
+All eight entries use primary proceedings, publisher, or archival full-text pages.
+SleepFM is represented by the peer-reviewed Nature Medicine 2026 paper rather
+than the smaller 2024 preliminary arXiv study. ECG-FM uses its formal JAMIA Open
+publication and PMC source. Figure provenance is stored in
+cross_modal_figure_manifest.json after merging.

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "wav2vec2",
+    "title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
+    "venue": "NeurIPS 2020",
+    "status": "peer-reviewed",
+    "landingUrl": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html",
+    "pdfUrl": "https://proceedings.neurips.cc/paper_files/paper/2020/file/92d1e1eb1cd6f9fba3227870bb6d7f07-Paper.pdf",
+    "localPdf": "assets/papers/wav2vec2/paper.pdf"
+  },
+  {
+    "id": "data2vec",
+    "title": "data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language",
+    "venue": "ICML 2022",
+    "status": "peer-reviewed",
+    "landingUrl": "https://proceedings.mlr.press/v162/baevski22a.html",
+    "pdfUrl": "https://proceedings.mlr.press/v162/baevski22a/baevski22a.pdf",
+    "localPdf": "assets/papers/data2vec/paper.pdf"
+  },
+  {
+    "id": "best_rq",
+    "title": "Self-supervised Learning with Random-projection Quantizer for Speech Recognition",
+    "venue": "ICML 2022",
+    "status": "peer-reviewed",
+    "landingUrl": "https://proceedings.mlr.press/v162/chiu22a.html",
+    "pdfUrl": "https://proceedings.mlr.press/v162/chiu22a/chiu22a.pdf",
+    "localPdf": "assets/papers/best_rq/paper.pdf"
+  },
+  {
+    "id": "beats",
+    "title": "BEATs: Audio Pre-Training with Acoustic Tokenizers",
+    "venue": "ICML 2023",
+    "status": "peer-reviewed",
+    "landingUrl": "https://proceedings.mlr.press/v202/chen23ag.html",
+    "pdfUrl": "https://proceedings.mlr.press/v202/chen23ag/chen23ag.pdf",
+    "localPdf": "assets/papers/beats/paper.pdf"
+  }
+]

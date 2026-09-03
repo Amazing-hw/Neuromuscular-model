@@ -1,0 +1,310 @@
+[
+  {
+    "paperId": "bendr",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 8,
+      "caption": "The overall architecture used to construct BENDR. Loss L is calculated for a masked BErt-inspired Neural Data Representations (BENDR) bt, produced from raw EEG via convolutional stages; the transformer encodes the masked target contrastively.",
+      "sourceUrl": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.653659/pdf",
+      "localPath": "assets/papers/bendr/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "biot",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 3,
+      "caption": "Biosignal Transformer (BIOT). Data preprocessing creates a biosignal sentence using biosignal tokenization, then a linear transformer learns interactions; the encoder supports supervised learning, missing data, and pre-training/fine-tuning across formats and tasks.",
+      "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2023/file/f6b30f3e2dd9cb53bbf2024402d02295-Paper-Conference.pdf",
+      "localPath": "assets/papers/biot/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "labram",
+    "main": {
+      "figureNumber": "Figure 2",
+      "pageNumber": 4,
+      "caption": "Overview of neural tokenizer training and LaBraM pre-training. Up: We train a neural tokenizer to discretize EEG signals into discrete neural tokens by reconstructing the Fourier spectrum. Down: During pre-training, part of EEG patches are masked while the objective is to predict masked tokens from visible patches.",
+      "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/file/47393e8594c82ce8fd83adc672cf9872-Paper-Conference.pdf",
+      "localPath": "assets/papers/labram/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "eegpt_wang",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 4,
+      "caption": "The EEGPT structure patches and masks input EEG, embeds it with local spatio-temporal embeddings, then uses encoder, predictor, momentum encoder and reconstructor for feature alignment and reconstruction.",
+      "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2024/file/4540d267eeec4e5dbd9dae9448f0b739-Paper-Conference.pdf",
+      "localPath": "assets/papers/eegpt_wang/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "cbramod",
+    "main": {
+      "figureNumber": "Figure 2",
+      "pageNumber": 3,
+      "caption": "CBraMod pre-training overview.",
+      "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2025/file/bbbd6d915cb90be21c1254a82d45cedd-Paper-Conference.pdf",
+      "localPath": "assets/papers/cbramod/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "neuript",
+    "main": {
+      "figureNumber": "Figure 3",
+      "pageNumber": 4,
+      "caption": "Overview of NeurIPT, comprising Amplitude-Aware Masked Pretraining (AAMP), 3D Electrode Embedding, Progressive Mixture-of-Experts (PMoE), and Intra-Inter Lobe Pooling (IILP) for fine-tuning.",
+      "sourceUrl": "https://papers.nips.cc/paper_files/paper/2025/file/dd9c5ce8803e1898d438e636fbae0236-Paper-Conference.pdf",
+      "localPath": "assets/papers/neuript/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "tfm_tokenizer",
+    "main": {
+      "figureNumber": "Figure 2",
+      "pageNumber": 4,
+      "caption": "Overview of the framework: TFM-Tokenizer pretraining learns time-frequency motifs into discrete tokens through dual-path encoding and masked prediction; it combines frequency-band and temporal masking and trains a downstream Transformer by masked token prediction.",
+      "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2026/file/3dc85735f6e2fcf093e67b134fa00d21-Paper-Conference.pdf",
+      "localPath": "assets/papers/tfm_tokenizer/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "wav2vec2",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 2,
+      "caption": "Illustration of our framework which jointly learns contextualized speech representations and an inventory of discretized speech units.",
+      "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2020/file/92d1e1eb1cd6f9fba3227870bb6d7f07-Paper.pdf",
+      "localPath": "assets/papers/wav2vec2/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "data2vec",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 2,
+      "caption": "Illustration of how data2vec follows the same learning process for different modalities. The model first produces representations of the original input example (teacher mode) which are then regressed by the same model based on a masked version of the input. The teacher parameters are an exponentially moving average of the student weights. The student predicts the average of K network layers of the teacher (shaded in blue).",
+      "sourceUrl": "https://proceedings.mlr.press/v162/baevski22a/baevski22a.pdf",
+      "localPath": "assets/papers/data2vec/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "best_rq",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 2,
+      "caption": "Overview of BEST-RQ. The approach applies random projections to project the input speech signals to a randomly initialized codebook, and map them to discrete labels through finding the nearest vector in the codebook. The pre-training objective is for the ASR encoder to take the masked input signals and predict the labels corresponding to the masked part provided by the random-projection quantizer.",
+      "sourceUrl": "https://proceedings.mlr.press/v162/chiu22a/chiu22a.pdf",
+      "localPath": "assets/papers/best_rq/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "beats",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 2,
+      "caption": "Iterative audio pre-training of BEATs.",
+      "sourceUrl": "https://proceedings.mlr.press/v202/chen23ag/chen23ag.pdf",
+      "localPath": "assets/papers/beats/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "heartlang",
+    "main": {
+      "figureNumber": "Figure 2",
+      "pageNumber": 4,
+      "caption": "Framework of HeartLang: QRS tokenization, VQ heartbeat reconstruction, masked ECG sentence modeling and collective word prediction.",
+      "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2025/file/17aa70697d6cd35835f201c6fb0a2fd5-Paper-Conference.pdf",
+      "localPath": "assets/papers/heartlang/figure-main.png",
+      "treatment": "original",
+      "orientation": "landscape",
+      "cropNote": "original method diagram; surrounding prose removed"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "ecg2tok",
+    "main": {
+      "figureNumber": "Figure 2",
+      "pageNumber": 3,
+      "caption": "ECG2TOK target encoder is an EMA of the context encoder; online clustering creates target labels for masked patch prediction.",
+      "sourceUrl": "https://www.ijcai.org/proceedings/2025/1110.pdf",
+      "localPath": "assets/papers/ecg2tok/figure-main.png",
+      "treatment": "original",
+      "orientation": "landscape",
+      "cropNote": "original method diagram; surrounding prose removed"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "sleepfm",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 4,
+      "caption": "Formal SleepFM framework: multi-cohort PSG, channel-agnostic pooling, temporal transformer, leave-one-out contrastive learning and downstream adaptation.",
+      "sourceUrl": "https://www.nature.com/articles/s41591-025-04133-4.pdf",
+      "localPath": "assets/papers/sleepfm/figure-main.png",
+      "treatment": "original",
+      "orientation": "portrait",
+      "cropNote": "official Nature Medicine HTML Figure 1 image"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "ecg_fm",
+    "main": {
+      "figureNumber": "Figure 2",
+      "pageNumber": 3,
+      "caption": "ECG-FM framework: lead masking, CNN latent extraction, latent masking/quantization, Transformer local representations and global contrastive learning.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12530324/pdf/ooaf122.pdf",
+      "localPath": "assets/papers/ecg_fm/figure-main.png",
+      "treatment": "original",
+      "orientation": "landscape",
+      "cropNote": "original method diagram; surrounding prose removed"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "apple_wearable",
+    "main": {
+      "figureNumber": "Figure 3",
+      "pageNumber": 17,
+      "caption": "High-level visualization of the pre-training framework: augmented biosignal views are encoded and projected; contrastive loss attracts different segments of the same participant and repels negative pairs.",
+      "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/file/0d99a8c048befb6dd6e17d7684adacac-Paper-Conference.pdf",
+      "localPath": "assets/papers/apple_wearable/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "moment",
+    "main": {
+      "figureNumber": "Figure 3",
+      "pageNumber": 4,
+      "caption": "Overview of MOMENT. A time series is split into fixed-length patches, embedded, randomly masked during pre-training, passed through a Transformer encoder, and reconstructed with a lightweight reconstruction head.",
+      "sourceUrl": "https://arxiv.org/pdf/2402.03885",
+      "localPath": "assets/papers/moment/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "papagei",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 2,
+      "caption": "PaPaGei Overview. Diverse public PPG datasets train a foundation model with morphology-aware contrastive learning; its embeddings are evaluated on 20 tasks from 10 datasets.",
+      "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2025/file/7871f51d332c8661cc729539d7987b21-Paper-Conference.pdf",
+      "localPath": "assets/papers/papagei/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "scaling_wearable",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 2,
+      "caption": "Scaling Foundation Models on Wearable Data. Multimodal wearable data are pretrained with random masking, evaluated on imputation, forecasting and classification, and scaled across compute, data and model size.",
+      "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2025/file/94b25992757a549470c8f8dfe73d8df6-Paper-Conference.pdf",
+      "localPath": "assets/papers/scaling_wearable/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "sundial",
+    "main": {
+      "figureNumber": "Figure 2",
+      "pageNumber": 4,
+      "caption": "Overall architecture of Sundial. The input time series is divided into patch tokens, which are embedded from original continuous values. The patch embeddings are fed into a decoder-only Transformer, a stable and speedup version that learns token representations via causal self-attention. The model is optimized using our TimeFlow Loss, a parameterized loss function that models per-token probability distribution conditioned on the learned representations, and generates multiple plausible predictions under the flow-matching framework.",
+      "sourceUrl": "https://arxiv.org/pdf/2502.00816",
+      "localPath": "assets/papers/sundial/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "m2ae",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 3,
+      "caption": "Analysis pipeline overview: paired ECG and PPG are jointly trained with reconstruction and cross-modal contrastive objectives to yield biosignal fingerprints, then adapted for cross-modal reconstruction and other downstream tasks.",
+      "sourceUrl": "https://arxiv.org/pdf/2605.09579",
+      "localPath": "assets/papers/m2ae/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "generic_neuromotor",
+    "main": {
+      "figureNumber": "Fig. 1",
+      "pageNumber": 3,
+      "caption": "A hardware and software platform for high-throughput recording and real-time decoding of sEMG at the wrist, covering data collection, wristband hardware, task prompters and representative signals.",
+      "sourceUrl": "https://www.nature.com/articles/s41586-025-09255-w.pdf",
+      "localPath": "assets/papers/generic_neuromotor/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "emg2pose",
+    "main": {
+      "figureNumber": "Figure 2",
+      "pageNumber": 5,
+      "caption": "Dataset composition: a) sEMG-RD wrist-band and motion capture marker (white dots) setup. b) Dataset breakdown. i) Users are prompted to perform a sequence of movement types (gestures), such as counting up and down. sEMG and poses are recorded simultaneously. ii) Groups of specific gesture types comprise a stage, such as counting. Stages are partitioned into train/val/test splits (see Section 3.4). Our dataset consists of 29 diverse stages. iii) Each of the 193 users perform various stages, donning on-and-off the wrist band. In total we record 370 hours of data.",
+      "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2024/file/64f8884f6ba3d9ace5bb647c4f917896-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "localPath": "assets/papers/emg2pose/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "emg2qwerty",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 3,
+      "caption": "Left: An example surface electromyographic (sEMG) recording for the prompt “the quick brown fox” showing 32-channel sEMG signals from left and right wristbands, along with key-press times. Vertical lines indicate keystroke onset. The signal from each electrode channel is high-pass filtered. Right: The sEMG research device (sEMG-RD) used for data collection together with a schematic denoting the electrode placement around the wrist circumference. The left and right wristbands are worn such that one is a mirror of the other, and therefore the positioning of the electrodes around the wrist physiology remains the same, albeit with a reversed electrode polarity with respect to the wrist.",
+      "sourceUrl": "https://papers.nips.cc/paper_files/paper/2024/file/a64d53074d011e49af1dfc72c332fe4b-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "localPath": "assets/papers/emg2qwerty/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "aemg",
+    "main": {
+      "figureNumber": "Figure 2",
+      "pageNumber": 3,
+      "caption": "Framework of AEMG",
+      "sourceUrl": "https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_Reading_Your_Actions_Learning_Generalizable_Action_Representations_via_Pre-training_AEMG_CVPR_2026_paper.pdf",
+      "localPath": "assets/papers/aemg/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  }
+]

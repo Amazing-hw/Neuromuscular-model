@@ -1,0 +1,50 @@
+[
+  {
+    "paperId": "wav2vec2",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 2,
+      "caption": "Illustration of our framework which jointly learns contextualized speech representations and an inventory of discretized speech units.",
+      "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2020/file/92d1e1eb1cd6f9fba3227870bb6d7f07-Paper.pdf",
+      "localPath": "assets/papers/wav2vec2/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "data2vec",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 2,
+      "caption": "Illustration of how data2vec follows the same learning process for different modalities. The model first produces representations of the original input example (teacher mode) which are then regressed by the same model based on a masked version of the input. The teacher parameters are an exponentially moving average of the student weights. The student predicts the average of K network layers of the teacher (shaded in blue).",
+      "sourceUrl": "https://proceedings.mlr.press/v162/baevski22a/baevski22a.pdf",
+      "localPath": "assets/papers/data2vec/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "best_rq",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 2,
+      "caption": "Overview of BEST-RQ. The approach applies random projections to project the input speech signals to a randomly initialized codebook, and map them to discrete labels through finding the nearest vector in the codebook. The pre-training objective is for the ASR encoder to take the masked input signals and predict the labels corresponding to the masked part provided by the random-projection quantizer.",
+      "sourceUrl": "https://proceedings.mlr.press/v162/chiu22a/chiu22a.pdf",
+      "localPath": "assets/papers/best_rq/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  },
+  {
+    "paperId": "beats",
+    "main": {
+      "figureNumber": "Figure 1",
+      "pageNumber": 2,
+      "caption": "Iterative audio pre-training of BEATs.",
+      "sourceUrl": "https://proceedings.mlr.press/v202/chen23ag/chen23ag.pdf",
+      "localPath": "assets/papers/beats/figure-main.png",
+      "treatment": "original"
+    },
+    "secondary": null
+  }
+]

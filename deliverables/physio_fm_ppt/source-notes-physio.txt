@@ -1,0 +1,20 @@
+HeartLang | ICLR 2025 | Reading Your Heart: Learning ECG Words and Sentences via Pre-training ECG Language Model
+Official landing: https://openreview.net/forum?id=6Hz1Ko087B
+Official PDF: https://proceedings.iclr.cc/paper_files/paper/2025/file/17aa70697d6cd35835f201c6fb0a2fd5-Paper-Conference.pdf
+Key ground truth: QRS-Tokenizer creates heartbeat-aligned ECG words; VQ-HBR builds a collective ECG vocabulary; ST-ECGFormer predicts masked word indices. MIMIC-IV-ECG is 12-lead, 10 s, 500 Hz. No DOI assigned in the proceedings citation.
+
+ECG2TOK | IJCAI 2025, AI and Social Good, pp. 9990-9998 | DOI 10.24963/ijcai.2025/1110
+Official landing: https://www.ijcai.org/proceedings/2025/1110
+Official PDF: https://www.ijcai.org/proceedings/2025/1110.pdf
+Key ground truth: target encoder is EMA of context encoder; online clustering of target features produces discrete pseudo-labels; the masked SSL model predicts label indices. The official abstract reports six downstream tasks and up to 30.73% AUC increase in low-resource settings.
+
+SleepFM | Nature Medicine 2026, 32:752-762 | DOI 10.1038/s41591-025-04133-4 | A multimodal sleep foundation model for disease prediction
+Official landing: https://www.nature.com/articles/s41591-025-04133-4
+Official PDF: https://www.nature.com/articles/s41591-025-04133-4.pdf
+Official Figure 1 image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04133-4/MediaObjects/41591_2025_4133_Fig1_HTML.png
+Key ground truth: four principal pretraining cohorts contain 65,000+ participants and 585,000+ hours of PSG; SHHS (6,441 adults) is excluded from pretraining and used for transfer. Signals are standardized to 128 Hz, segmented into 5 s tokens, pooled with channel-agnostic attention, and modeled over a 5 min temporal context. LOO-CL aligns one modality with the combined representation of the others. The paper evaluates 1,041 phenotypes; 130 reach C-Index >=0.75 with Bonferroni significance. Sleep-stage mean F1 is 0.70-0.78, while apnea severity/presence accuracies are 0.69/0.87.
+
+ECG-FM | JAMIA Open 2025, 8(5):ooaf122 | DOI 10.1093/jamiaopen/ooaf122
+Formal publication metadata: https://pmc.ncbi.nlm.nih.gov/articles/PMC12530324/
+Official open PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC12530324/pdf/ooaf122.pdf
+Key ground truth: formal JAMIA Open paper reports roughly 1.5 million 12-lead ECGs for pretraining. Architecture combines random lead masking, CNN latent features, Transformer local/global representations, local quantized-latent contrast and global CMC contrast. The formal abstract reports AUROC 0.996 for atrial fibrillation and 0.929 for LVEF <=40%; it also notes downstream gains may converge toward task-specific baselines with sufficiently large labels.

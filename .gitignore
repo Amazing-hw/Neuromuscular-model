@@ -1,5 +1,8 @@
 .worktrees/
+.tmp/
+tmp/
 deliverables/physio_fm_ppt/rendered/
+deliverables/physio_fm_ppt/rendered_*/
 deliverables/physio_fm_ppt/node_modules/
 deliverables/physio_fm_ppt/preview/
 deliverables/physio_fm_ppt/montage.png

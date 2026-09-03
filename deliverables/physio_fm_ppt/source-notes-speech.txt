@@ -1,0 +1,19 @@
+wav2vec 2.0 | NeurIPS 2020 | wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations
+Official landing: https://proceedings.neurips.cc/paper_files/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html
+Official PDF: https://proceedings.neurips.cc/paper_files/paper/2020/file/92d1e1eb1cd6f9fba3227870bb6d7f07-Paper.pdf
+Key ground truth: seven convolution blocks reduce 16 kHz waveform to roughly 49 Hz continuous latents; spans are masked before the Transformer; product quantization with trainable Gumbel-Softmax codebooks provides discrete contrastive targets; a diversity loss encourages codebook use. The official abstract reports WER 1.8/3.3 with all LibriSpeech labels and 4.8/8.2 with ten minutes of labels after 53k hours of unlabeled pretraining.
+
+data2vec | ICML 2022 | data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language
+Official landing: https://proceedings.mlr.press/v162/baevski22a.html
+Official PDF: https://proceedings.mlr.press/v162/baevski22a/baevski22a.pdf
+Key ground truth: a masked student predicts continuous contextual targets produced from the full input by an EMA teacher. Targets average normalized representations from several top teacher layers. There is no codebook or contrastive negative set. The same objective is evaluated for speech, vision and text; AudioSet transfer reports 34.5 mAP in the paper's setup.
+
+BEST-RQ | ICML 2022 | Self-supervised Learning with Random-projection Quantizer for Speech Recognition
+Official landing: https://proceedings.mlr.press/v162/chiu22a.html
+Official PDF: https://proceedings.mlr.press/v162/chiu22a/chiu22a.pdf
+Key ground truth: the label path uses a randomly initialized projection matrix and randomly initialized codebook, both frozen throughout training. L2-normalized nearest-neighbor lookup produces discrete labels and the masked Conformer predicts them with cross-entropy. The paper reports strong streaming and multilingual ASR, and shows codebook utilization, mask settings and random seed matter.
+
+BEATs | ICML 2023 | BEATs: Audio Pre-Training with Acoustic Tokenizers
+Official landing: https://proceedings.mlr.press/v202/chen23ag.html
+Official PDF: https://proceedings.mlr.press/v202/chen23ag/chen23ag.pdf
+Key ground truth: BEATs alternates between discrete-label audio SSL and tokenizer self-distillation. Iteration one uses a random-projection tokenizer; later tokenizers distill pretrained or supervised-finetuned BEATs teachers. Audio is represented by 128-dimensional Mel features with 25 ms windows and 10 ms shifts, then 16x16 patches. The official abstract reports 50.6 mAP on AudioSet-2M and 98.1% accuracy on ESC-50.
