@@ -1,5 +1,7 @@
 # Meta 16 通道 sEMG 规范化 H5 转换
 
+**当前研究主线（2026-11-03）**：使用五类 Meta EMG 的 train 数据预训练共享 encoder，再仅在 emg2pose 微调，验证迁移收益。请从 [POSE_TRANSFER.md](POSE_TRANSFER.md) 开始；方法与证据标准见 [研究方案](docs/research/08_meta_pose_transfer.md)。新入口为 `pose_transfer.py`，下文原有多任务训练入口保留作历史路径。
+
 本仓库把 5 个公开的 Meta/CTRL-labs 16 通道腕部 sEMG 语料转换为统一的单腕 HDF5 契约。这些转换器刻意**不是**生理信号预处理流水线：不做通道重排、滤波、缩放、极性校正、截断或重采样。唯一的表示变更，是把 `time_s` 存为相对首个样本的时间；源路径和预处理记录都保留在每份输出中。
 
 ## 上手流程

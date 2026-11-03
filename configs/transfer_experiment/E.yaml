@@ -1,0 +1,5 @@
+name: E
+sources: pose
+requires_pretrain: false
+# Step-matched extended supervised control; not automatically FLOP/time-matched.
+finetune_steps: 60000

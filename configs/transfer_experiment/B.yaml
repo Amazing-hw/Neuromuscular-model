@@ -1,0 +1,4 @@
+name: B
+sources: pose
+requires_pretrain: true
+finetune_steps: 20000

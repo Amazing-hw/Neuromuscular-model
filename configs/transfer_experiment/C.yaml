@@ -1,0 +1,4 @@
+name: C
+sources: external
+requires_pretrain: true
+finetune_steps: 20000
